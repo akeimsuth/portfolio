@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Patrix</title>
+    <title>Akeim Sutherland - WordPress Developer</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "Qw0UlYxQslp2vdCE6",
+          });
+      })();
+    </script>
+  </head>
 <body>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                START SECTION 1 - THE NAVBAR SECTION  
@@ -18,7 +28,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="">
-        <img src="images/logo.png" alt="logo image">
+        <img src="images/logo.png" alt="Akeim Sutherland logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,7 +38,7 @@
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#faq">faq</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#faq">faq</a></li> -->
           <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
           </li>
@@ -55,23 +65,25 @@
         <h1 class="display-2">
           <span class="display-2--intro">Hey!, I'm Akeim</span>
           <span class="display-2--description lh-base">
-            and I am a full stack developer, that has worked in finance and healthcare
+            a professional WordPress developer with 5+ years of experience specializing in custom website development using Elementor and premium plugins. I excel at creating stunning, responsive websites that drive business growth and deliver exceptional user experiences. From concept to deployment, I bring your vision to life with clean code and modern design.
           </span>
         </h1>
-        <button type="button" class="rounded-pill btn-rounded">Get in Touch
-          <span><i class="fas fa-arrow-right"></i></span>
-        </button>
+        <a href="#contact" style="text-decoration: none;">
+          <button type="button" class="rounded-pill btn-rounded">Get in Touch
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button>
+        </a>
       </div>
       <!-- START THE CONTENT FOR THE VIDEO -->
       <div class="col-md-6 intros text-end">
         <div class="video-box">
           <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
-          <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+          <!-- <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
             <span>
               <i class="fas fa-play-circle"></i>
             </span>
             <span class="border-animation border-animation--border-1"></span>
-            <span class="border-animation border-animation--border-2"></span>
+            <span class="border-animation border-animation--border-2"></span> -->
           </a>
         </div>
       </div>
@@ -141,16 +153,14 @@
       <div class="col-md-6 border-right">
         <div class="bg-white p-3">
           <h2 class="fw-bold text-capitalize text-center">
-            Our Services Range From Initial Design To Deployment Anywhere Anytime
+            Professional WordPress Development Services From Design To Launch
           </h2>
         </div>
       </div>
       <div class="col-md-6">
         <div class="bg-white p-4 text-start">
-          <p class="fw-light">
-            Lorem ipsum dolor sit amet consectetur architecto magni, 
-            dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias. 
-            Tempore ducimus molestiae in dolore enim.
+          <p class="lh-lg">
+            Custom WordPress websites built with Elementor and premium plugins. I create responsive, SEO-optimized sites that convert visitors into customers. From simple business sites to complex e-commerce platforms, your vision becomes reality.
           </p>
         </div>
       </div>
@@ -163,12 +173,10 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-paper-plane"></div>
-          <h3 class="display-3--title mt-1">Marketing</h3>
+          <div class="icon d-block fas fa-wordpress"></div>
+          <h3 class="display-3--title mt-1">WordPress Development</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            Custom WordPress websites built with Elementor and premium plugins. I create responsive, SEO-optimized sites that convert visitors into customers. From simple business sites to complex e-commerce platforms, your vision becomes reality.
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
@@ -177,7 +185,7 @@
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
         <div class="services__pic">
-          <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+          <img src="images/services/service-1.png" alt="WordPress development illustration" class="img-fluid">
         </div>
       </div>
     </div>
@@ -185,17 +193,15 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
         <div class="services__pic">
-          <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
+          <img src="images/services/service-2.png" alt="WordPress design illustration" class="img-fluid">
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-code"></div>
-          <h3 class="display-3--title mt-1">web development</h3>
+          <div class="icon d-block fas fa-palette"></div>
+          <h3 class="display-3--title mt-1">Custom Design</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            Professional WordPress theme customization and responsive design. I transform your brand vision into beautiful, user-friendly websites that work perfectly on all devices. Every design is crafted with attention to detail and modern UX principles.
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
@@ -207,12 +213,10 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-cloud-upload-alt"></div>
-          <h3 class="display-3--title mt-1">cloud hosting</h3>
+          <div class="icon d-block fas fa-cogs"></div>
+          <h3 class="display-3--title mt-1">Plugin Integration</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            Expert WordPress plugin integration and customization. I implement and configure premium plugins to add advanced functionality like e-commerce, forms, SEO tools, and more. Your website will have all the features you need to succeed online.
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
@@ -221,7 +225,7 @@
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
         <div class="services__pic">
-          <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
+          <img src="images/services/service-3.png" alt="WordPress plugin illustration" class="img-fluid">
         </div>
       </div>
     </div>
@@ -237,7 +241,7 @@
     <div class="row text-center text-white">
       <h1 class="display-3 fw-bold">Testimonials</h1>
       <hr style="width: 100px; height: 3px; " class="mx-auto">
-      <p class="lead pt-1">what our clients are saying</p>
+      <p class="lead pt-1">what my clients are saying</p>
     </div>
 
     <!-- START THE CAROUSEL CONTENT  -->
@@ -250,8 +254,7 @@
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                Akeim built our WordPress website with Elementor and it exceeded all expectations. It's fast, user-friendly, and looks stunning. Our customers love it!
                 <i class="fas fa-quote-right"></i>
                 <div class="ratings p-1">
                   <i class="fas fa-star"></i>
@@ -278,8 +281,7 @@
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                Akeim's WordPress development skills are exceptional. He turned our vision into reality with a professional, efficient approach and delivered on time.
                 <i class="fas fa-quote-right"></i>
                 <div class="ratings p-1">
                   <i class="fas fa-star"></i>
@@ -306,8 +308,7 @@
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                Working with Akeim was seamless. The WordPress functionality and design he implemented improved our online presence significantly.
                 <i class="fas fa-quote-right"></i>
                 <div class="ratings p-1">
                   <i class="fas fa-star"></i>
@@ -334,8 +335,7 @@
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                Akeim took the time to understand our needs and created a custom WordPress solution that perfectly fit our business requirements.
                 <i class="fas fa-quote-right"></i>
                 <div class="ratings p-1">
                   <i class="fas fa-star"></i>
@@ -372,18 +372,18 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
                        START SECTION 6 - THE FAQ 
 //////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="faq" class="faq">
+<!-- <section id="faq" class="faq">
   <div class="container">
     <div class="row text-center">
       <h1 class="display-3 fw-bold text-uppercase">faq</h1>
       <div class="heading-line"></div>
       <p class="lead">frequently asked questions, get knowledge befere hand</p>
     </div>
-    <!-- ACCORDION CONTENT  -->
+  
     <div class="row mt-5">
       <div class="col-md-12">
         <div class="accordion" id="accordionExample">
-          <!-- ACCORDION ITEM 1 -->
+         
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -396,7 +396,7 @@
               </div>
             </div>
           </div>
-             <!-- ACCORDION ITEM 2 -->
+           
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -409,7 +409,7 @@
               </div>
             </div>
           </div>
-             <!-- ACCORDION ITEM 3 -->
+         
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -422,7 +422,7 @@
               </div>
             </div>
           </div>
-             <!-- ACCORDION ITEM 4 -->
+             
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -439,7 +439,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
                               START SECTION 7 - THE PORTFOLIO  
@@ -451,7 +451,7 @@
       <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
       <div class="heading-line"></div>
       <p class="lead">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+        Discover my latest WordPress projects that showcase creativity, innovation, and functionality. Each website is crafted with Elementor and premium plugins to meet unique client needs and deliver outstanding user experiences.
       </p>
     </div>
     <!-- FILTER BUTTONS  -->
@@ -467,26 +467,30 @@
     <!-- START THE PORTFOLIO ITEMS  -->
     <div class="row">
       <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 1</h4>
-              <p>category project</p>
+        <a href="https://jmfield.com" target="_blank">
+          <div class="d-flex justify-content-center align-items-center portfolio-box shadow">
+            <img style="width: 300px !important; height: 87px !important;" src="https://jmfield.com/wp-content/uploads/2022/05/JMF_Tagline_Logo_Horizontal.png" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>JM Field</h4>
+                <p>Fulfillment Company</p>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
       <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 2</h4>
-              <p>category project</p>
+        <a href="https://oneilruppel.com" target="_blank">
+          <div class="portfolio-box shadow">
+            <img style="object-fit: contain; padding: 1rem; background-color: #000;;" src="https://d1kt5m7t1iopym.cloudfront.net/wp-content/uploads/2021/06/08131446/oneil-logo.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Oneil Ruppel</h4>
+                <p>Luxury bath and furniture</p>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
       <!-- <div class="col-lg-4 col-md-6">
         <div class="portfolio-box shadow">
@@ -577,9 +581,9 @@
     <div class="row text-center">
       <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
       <div class="heading-line"></div>
-      <p class="lh-lg">
+      <!-- <p class="lh-lg">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
-      </p>
+      </p> -->
     </div>
 
     <!-- START THE CTA CONTENT  -->
@@ -588,7 +592,7 @@
         <div class="cta-info w-100">
           <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
+            Ready to start your WordPress project? Contact me today! I'm here to help bring your website vision to life and look forward to discussing your project requirements.
           </p>
           <h3 class="display-3--brief">What will be the next step?</h3>
           <ul class="cta-info__list">
@@ -600,27 +604,28 @@
       </div>
       <div class="col-12 col-lg-6 bg-white shadow p-3">
         <div class="form w-100 pb-2">
-          <h4 class="display-3--title mb-5">start your project</h4>
-          <form action="#" class="row">
+          <h4 class="display-3--title mb-5">start your WordPress project</h4>
+          <form id="myForm" action="#" class="row">
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+              <input type="text" name="first_name" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+              <input type="text" name="last_name" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+              <input type="email" name="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
             </div>
             <div class="text-center d-grid mt-1">
-              <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+              <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
                 submit
                 <i class="fas fa-paper-plane"></i>
               </button>
             </div>
           </form>
+          <strong id="message" style="color:green; display: none; justify-content: center;">Form has been submitted!</strong>
         </div>
       </div>
     </div>
@@ -660,7 +665,7 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">akeimsuth@gmail.com</a>
+          <a href="mailto:akeimsuth@gmail.com" class="contact-box__info--title">akeimsuth@gmail.com</a>
           <p class="contact-box__info--subtitle">Online support</p>
         </div>
       </div>
@@ -779,8 +784,50 @@
         'source': 'youtube', //vimeo, youtube or local
         'width': 900,
         'autoPlayVideos': 'true',
-});
-    
+      });
+
+      function onFormSubmit(formId, callback) {
+          const form = document.getElementById(formId);
+
+          if (!form) {
+              console.error(`Form with ID '${formId}' not found.`);
+              return;
+          }
+
+          form.addEventListener('submit', function(event) {
+              event.preventDefault(); // Prevent the default form submission behavior
+              callback(); // Execute the callback function
+              const successMessage = document.createElement('strong');
+              successMessage.textContent = 'Form submitted successfully!';
+              successMessage.style.display = 'flex';
+              successMessage.style.justifyContent = 'center'
+              successMessage.style.color = 'green';
+              successMessage.style.marginTop = '10px';
+              form.appendChild(successMessage);
+
+              // Clear the form fields
+              form.reset();
+
+              // Remove the success message after 3 seconds
+              setTimeout(() => successMessage.remove(), 3000);
+          });
+      }
+
+      function sendEmail(){
+        emailjs.sendForm('service_6mb20vi', 'template_wadm5gr', '#myForm').then(
+          (response) => {
+            console.log('SUCCESS!', response.status, response.text);
+          },
+          (error) => {
+            console.log('FAILED...', error);
+          },
+        );
+      }
+      onFormSubmit('myForm', function() {
+          sendEmail();
+          console.log('Form has been submitted!');
+          document.getElementById('message').style.display = 'flex';
+      });
     </script>
      <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
